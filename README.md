@@ -1,2 +1,2 @@
-# Animac-o-cria-de-favela
+# Animação cria de favela
 Do Lixo ao Luxo
