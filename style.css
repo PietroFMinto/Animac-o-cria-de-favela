@@ -8,6 +8,7 @@ body {
     font-family: "Poppins", sans-serif;
     color: #aaaaaa;
     background-color: rgb(48, 47, 47);
+    transition: none;
 }
 
 header {
@@ -16,23 +17,64 @@ header {
     align-items: center;
 }
 
-.Caixa-Principal {
+.Cores-Temas {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 700;
+}
+
+#Claro {
+    margin-right: 20px;
+}
+
+input[type="radio"] {
+    transform: scale(2); 
+    margin: 10px; 
+}
+
+h2 {
+    margin-top: 10px;
+}
+.main-box {
     display: flex;
     flex-direction: row;
 
 }
 
-.Caixa-Principal iframe {
+.main-box iframe {
     margin-top: 40px;
     margin-left: 200px;
-    width: 60%;
-    height: 700px;
-    padding-left: 40px;
-    padding-right: 40%;
 }
 
-h3 {
+.text-box {
     margin-top: 60px;
     margin-left: 30px;
     max-width: 400px;
 }
+
+.text-box h3 {
+    font-weight: 700;
+}
+
+.text-box p {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 470px;
+    font-weight: 500;
+}
+
+.text-box h4 {
+    margin-top: 80px;
+}
+
+a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 22px;
+    transition: 0.5s;
+}
+
