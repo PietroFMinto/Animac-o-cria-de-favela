@@ -47,10 +47,13 @@ h2 {
 }
 
 .text-box {
+    padding-top: 20px;
+    padding-left: 10px;
     margin-top: 60px;
     margin-left: 30px;
     width: 500px;
     background-color: rgb(22, 19, 19);
+    border-radius: 5px;
 }
 
 .text-box h3 {
@@ -81,3 +84,32 @@ a:hover {
     transition: 0.5s;
 }
 
+.Apps {
+    display: flex;
+}
+.Apps img  {
+     border-radius: 10px;
+    height: 80px;
+}
+
+.apps-direcao {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100px;
+}
+
+#CapCut {
+    margin-top: 0;
+    margin-left: 19px;
+}
+
+#Pinterest {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+#flipaclip {
+    margin-top: 0;
+    margin-left: 15px;
+}
